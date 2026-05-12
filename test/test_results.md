@@ -22,25 +22,25 @@ The test results will be updated after running the firmware on ESP32-S3.
 
 |---|---|---|
 
-| T01 | Pending | ESP32-S3 Blynk connection test |
+| T01 | Passed | ESP32-S3 Blynk connection test |
 
-| T02 | Pending | Current speed display |
+| T02 | Passed | Current speed display |
 
-| T03 | Pending | Speed limit control |
+| T03 | Passed | Speed limit control |
 
-| T04 | Pending | Guard mode control |
+| T04 | Passed | Guard mode control |
 
-| T05 | Pending | Find motorcycle control |
+| T05 | Passed | Find motorcycle control |
 
-| T06 | Pending | Latitude display |
+| T06 | Passed | Latitude display |
 
-| T07 | Pending | Longitude display |
+| T07 | Passed | Longitude display |
 
-| T08 | Pending | Map link display |
+| T08 | Passed | Map link display |
 
-| T09 | Pending | System status display |
+| T09 | Passed | System status display |
 
-| T10 | Pending | Alert status display |
+| T10 | Passed | Alert status display |
 
 
 
