@@ -1,0 +1,24 @@
+# Build files
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+
+# Arduino / PlatformIO
+.pio/
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secret config
+secrets.h
+private_config.h
+
+# Blynk token should not be pushed
+*blynk_token*
