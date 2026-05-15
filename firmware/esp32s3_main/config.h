@@ -53,8 +53,27 @@ static const unsigned long BLYNK_UPDATE_INTERVAL_MS = 1000UL;
 
 // ================== Hardware Pins ==================
 
-// Tam thoi chua chot chan that, se cap nhat sau khi noi mach
-#define BUZZER_PIN              10
-#define LED_PIN                 11
+// Chan dieu khien buzzer va LED tren ESP32 DevKit V1
+// Khong dung GPIO10/GPIO11 vi cac chan nay lien quan den Flash
+#define BUZZER_PIN              25
+#define LED_PIN                 26
 
+
+// ================== GPS UART Pins ==================
+
+// GPS NEO-8M giao tiep voi ESP32 DevKit V1 bang UART2
+// GPS TX -> ESP32 GPIO16
+// GPS RX -> ESP32 GPIO17
+#define GPS_RX_PIN              16
+#define GPS_TX_PIN              17
+
+// Baudrate mac dinh cua GPS NEO-8M
+#define GPS_BAUD_RATE           9600
+
+
+// ================== MPU6050 I2C Pins ==================
+
+// MPU6050 giao tiep voi ESP32 DevKit V1 bang I2C
+#define I2C_SDA_PIN             21
+#define I2C_SCL_PIN             22
 #endif
