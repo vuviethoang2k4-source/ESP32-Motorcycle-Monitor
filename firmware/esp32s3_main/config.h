@@ -37,6 +37,8 @@
 
 // V8: Trang thai canh bao dang mau/den
 #define VPIN_ALERT_STATUS       V8
+#define VPIN_MAX_SPEED          V9
+#define VPIN_RESET_MAX_SPEED    V10
 
 
 // ================== Default Values ==================
